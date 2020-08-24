@@ -1,0 +1,17 @@
+@import url("https://rsms.me/inter/inter.css");
+html {
+	font-family: "Inter", sans-serif;
+	font-kerning: normal;
+	font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+@supports (font-variation-settings: normal) {
+	html {
+		font-family: "Inter var", sans-serif;
+		font-kerning: normal;
+		font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+		-webkit-font-smoothing: antialiased;
+		text-rendering: optimizeLegibility;
+	}
+}
